@@ -9,12 +9,12 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Service
-public class DocService {
+public class DoctorService {
 
     @Autowired
-    private DocRepo repo;
+    private DoctorRepository repo;
 
-    public DocService(DocRepo repo) {
+    public DoctorService(DoctorRepository repo) {
         this.repo = repo;
     }
 

@@ -13,12 +13,12 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/doctors")
-public class DocController {
+public class DoctorController {
 
     @Autowired
-    private DocService service;
+    private DoctorService service;
 
-    public DocController(DocService service) {
+    public DoctorController(DoctorService service) {
         this.service = service;
     }
 
